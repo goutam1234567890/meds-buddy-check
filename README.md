@@ -36,7 +36,7 @@ A modern medication management system for patients and caretakers. Built with Re
 
 ### 1. Clone the Repo
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/goutam1234567890/med-buddy-check
 cd meds-buddy-check
 ```
 
