@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://med-buddy-check.onrender.com";
 
 function getToken() {
   return localStorage.getItem("token");
