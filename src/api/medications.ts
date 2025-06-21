@@ -1,4 +1,4 @@
-const API_URL = "https://med-buddy-check.onrender.com";
+const API_URL = "https://meds-buddy-check-euqj.onrender.com/api";
 
 function getToken() {
   return localStorage.getItem("token");
@@ -26,7 +26,6 @@ export async function addMedication({ name, dosage, frequency }: { name: string,
   if (!res.ok) throw new Error("Failed to add medication");
   return await res.json();
 }
-
 
 // Mark a medication as taken
 export async function takeMedication(id: number) {

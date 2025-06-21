@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://meds-buddy-check-euqj.onrender.com/api";
 
 // Signup
 export async function signup(username: string, password: string, role: 'patient' | 'caretaker') {
