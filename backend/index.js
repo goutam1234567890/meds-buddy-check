@@ -11,7 +11,10 @@ const app = express();
 const PORT = 4000;
 const SECRET = 'your-secret-key';
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://meds-buddy-check-1.onrender.com', // your frontend Render URL
+  credentials: true
+}));
 app.use(express.json());
 
 // Set up multer for file uploads
